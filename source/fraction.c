@@ -29,6 +29,11 @@ Fraction* new_fraction_num(int numerator)
     return new_fraction(numerator, 1);
 }
 
+Fraction* new_fraction_default()
+{
+    return new_fraction_num(0);
+}
+
 Fraction* cut_fraction(Fraction* frac)
 {
     int gcd = nod(frac->numerator, frac->denominator);

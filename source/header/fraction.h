@@ -7,6 +7,7 @@ typedef struct {
 
 Fraction* new_fraction(int numerator, int denominator);
 Fraction* new_fraction_num(int numerator);
+Fraction* new_fraction_default();
 
 Fraction* cut_fraction(Fraction* frac);
 
